@@ -3,23 +3,23 @@ package nme.cs102.lab10;
 import java.awt.*;
 
 public enum ShapeColor {
-    GREEN("The shape is in the Screen", Color.GREEN), RED("The shape is not in the Screen",
-            Color.RED), GRAY("Haven't tested", Color.GRAY);
+  GREEN("The shape is in the Screen", Color.GREEN), RED("The shape is not in the Screen",
+          Color.RED), GRAY("Haven't tested", Color.GRAY);
 
-    private String desc;  // The description of instance
-    private Color color;  // The color of instance
+  private String desc;  // The description of instance
+  private Color color;  // The color of instance
 
-    ShapeColor (String desc, Color color) {
-        this.desc = desc;
-        this.color = color;
-    }
+  ShapeColor(String desc, Color color) {
+    this.desc = desc;
+    this.color = color;
+  }
 
-    public String getDesc() {
-        return this.desc;
-    }
+  public String getDesc() {
+    return this.desc;
+  }
 
-    public Color getColor() {
-        return this.color;
-    }
+  public Color getColor() {
+    return this.color;
+  }
 }
 

@@ -1,9 +1,9 @@
 package nme.cs102.lab13;
 
 public interface Geometry {
-    double area();
+  double area();
 
-    double perimeter();
+  double perimeter();
 
-    char draw();
+  char draw();
 }
