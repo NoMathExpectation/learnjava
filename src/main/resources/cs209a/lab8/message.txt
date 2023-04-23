@@ -1,0 +1,7 @@
+Test sending email using JavaMail
+Dear all:
+
+This is a test of JavaMail usage.
+
+Best,
+Your name
